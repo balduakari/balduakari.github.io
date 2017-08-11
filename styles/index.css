@@ -1,0 +1,106 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(fonts/mhimalaya.ttf);
+}
+
+div {
+    font-family: myFirstFont;
+}
+
+#container2 {
+	clear:left;
+	float:left;
+	width:100%;
+	overflow:hidden;
+}
+#container1 {
+	float:left;
+	width:100%;
+	position:relative;
+	right:50%;
+}
+#col1 {
+	float:left;
+	width:25%%;
+	position:relative;
+	left:52%;
+	overflow:hidden;
+}
+#col2 {
+	float:center;
+	width:75%%;
+	position:relative;
+	left:56%;
+	overflow:hidden;
+}
+
+h1 {
+	font-weight: : 50px;
+	color: white;
+	text-decoration: underline;
+	text-align: justify;
+}
+
+h1:after {
+  content: "";
+  display: inline-block;
+  width: 100%;
+}
+
+p {
+    line-height: 10px;
+	color: white;
+	font-weight: 14;
+	text-align: justify;
+}
+
+p, h1 {
+  margin: 0px;
+  padding: 0px;
+}
+
+img {
+	margin: 0; 
+	padding: 0; 	
+}
+
+
+
+html, body { 
+	margin: 0; 
+	padding: 0; 
+	width: 100%; 
+	height: 100%; 
+	background-color: black;
+	background-size: cover;
+}
+
+
+/* links the entire page */
+
+a { 
+	display: block; 
+	width: 100%; 
+	height: 100%; 
+}
+
+a:link {
+	color: white;
+    text-decoration: none;
+}
+
+a:visited {
+	color: white;
+    text-decoration: none;
+}
+
+a:hover {
+	color: white;
+    text-decoration: none;
+}
+
+a:active {
+	color: white;
+    text-decoration: none;
+}
+
